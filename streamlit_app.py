@@ -7,7 +7,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # ---------- Config ----------
 
-MODEL_DIR = "models/cognitive_distortion_roberta"
+MODEL_DIR = "Afreenfath/cognitive-distortion-roberta"
 LABEL2ID_PATH = "data/label2id.json"
 ID2LABEL_PATH = "data/id2label.json"
 MAX_LENGTH = 256
